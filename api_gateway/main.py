@@ -4,7 +4,6 @@ import httpx
 app = FastAPI()
 
 
-
 NOTIFICATION_SERVICE_URL = "http://notification_service:8001"
 
 

@@ -3,3 +3,5 @@ uvicorn
 psycopg2
 cassandra-driver
 pydantic
+sqlalchemy
+requests

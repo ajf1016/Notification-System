@@ -5,13 +5,13 @@ FROM python:3.11
 WORKDIR /app
 
 # Copy the dependencies file
-COPY api_gateway/requirements.txt .
+COPY requirements.txt .
 
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the application code
-COPY api_gateway/ .
+COPY . .
 
 # Expose FastAPI port
 EXPOSE 8000

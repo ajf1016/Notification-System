@@ -1,0 +1,48 @@
+# Virtual environments
+venv/
+.env
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Logs
+logs/
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Python dependencies
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Database files
+*.db
+*.sqlite3
+
+# Build & Deployment
+dist/
+build/
+*.tar.gz
+*.whl
+
+# Pytest & Coverage
+htmlcov/
+.coverage
+.cache
+.pytest_cache/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
